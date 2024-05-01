@@ -82,6 +82,7 @@ ul {
 
 .active {
   max-width: 300px !important;
+  transition: 0.3s linear;
 }
 
 .active img {

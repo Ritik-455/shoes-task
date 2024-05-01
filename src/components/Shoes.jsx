@@ -58,18 +58,18 @@ function Shoes() {
                     </div>
                 </nav>
                 <div className="d-flex">
-                    <div className={`${tabs === "tab1" ? "active" : ""} green-box d-flex justify-content-center align-items-center overflow-hidden`} onClick={() => handleClick('tab1')}>
+                    <div className={`${tabs === "tab1" ? "active" : ""} green-box d-flex justify-content-center align-items-center overflow-hidden`}  onMouseEnter={() => handleClick('tab1')}>
                         <img src={greenshoes} alt="greenshoes" className='shoes-transform3 d-none d-lg-block' />
                         <img src={greenshoes2} alt="greenshoes" className='shoes-transform3 d-none d-md-block d-lg-none' />
                         <img src={greenshoes3} alt="greenshoes" className='shoes-transform3 d-md-none' />
                     </div>
-                    <div className={` ${tabs === "tab2" ? "active" : ""} grey-box d-flex justify-content-center overflow-hidden align-items-center `} onClick={() => handleClick('tab2')}>
+                    <div className={` ${tabs === "tab2" ? "active" : ""} grey-box d-flex justify-content-center overflow-hidden align-items-center `}  onMouseEnter={() => handleClick('tab2')}>
                         <img src={greyshoes} alt="greyshoes" className=' shoes-transform d-none d-lg-block' />
                         <img src={greyshoes2} alt="greyshoes" className=' shoes-size shoes-transform d-none d-md-block d-lg-none' />
                         <img src={greyshoes3} alt="greyshoes3" className='shoes-transform d-md-none' />
 
                     </div>
-                    <div className={`${tabs === "tab3" ? "active" : ""} ylw-box d-flex justify-content-center align-items-center  overflow-hidden`} onClick={() => handleClick('tab3')}>
+                    <div className={`${tabs === "tab3" ? "active" : ""} ylw-box d-flex justify-content-center align-items-center  overflow-hidden`}  onMouseEnter={() => handleClick('tab3')}>
                         <img src={ylwshoes} alt="ylwshoes" className='shoes-transform2 d-none d-lg-block' />
                         <img src={ylwshoes2} alt="ylwshoes" className='shoes-transform2 d-none d-md-block d-lg-none shoes-size' />
                         <img src={ylwshoes3} alt="ylwshoes" className='shoes-transform2 d-md-none' />
