@@ -32,10 +32,10 @@ function Shoes() {
                 <nav className=' d-flex align-items-center justify-content-between max-w-700 position-absolute w-100 '>
                     <img src={logo} alt="logo" />
                     <ul className={`${show ? "end-0 " : "right_100"} d-flex gap-3 mobile-view`}>
-                        <li><a href="" className='nav-link'>Mens</a></li>
-                        <li><a href="" className='nav-link'>Women</a></li>
-                        <li><a href="" className='nav-link'>Kids</a></li>
-                        <li><a href="" className='nav-link'>Collection</a></li>
+                        <li><a href="" className='nav_link'>Mens</a></li>
+                        <li><a href="" className='nav_link'>Women</a></li>
+                        <li><a href="" className='nav_link'>Kids</a></li>
+                        <li><a href="" className='nav_link'>Collection</a></li>
                     </ul>
                     <div className="d-flex gap-3 d-lg-none">
                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">

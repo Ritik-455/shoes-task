@@ -8,11 +8,12 @@
   text-decoration: none !important;
 }
 
-.nav-link {
+.nav_link {
   font-family: "Inter", sans-serif;
   font-size: 30px;
   line-height: 36.31px;
   color: #000000;
+  font-weight: 600;
 }
 
 dl,
